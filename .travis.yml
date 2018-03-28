@@ -5,4 +5,5 @@ script:
     uname -a;
     cat /proc/cpuinfo;
     cat /proc/meminfo;
-    clang main.cpp;
+    df -h;
+    g++ main.cpp;
