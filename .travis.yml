@@ -1,0 +1,8 @@
+os: linux
+language: cpp
+
+script:
+    uname -a
+    cat /proc/cpuinfo
+    cat /proc/meminfo
+    clang main.cpp
