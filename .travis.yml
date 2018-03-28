@@ -6,4 +6,3 @@ script:
     cat /proc/cpuinfo;
     cat /proc/meminfo;
     df -h;
-    g++ main.cpp;
